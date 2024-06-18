@@ -32,35 +32,28 @@ const Detail = () => {
                 <img src="https://www.educaciontrespuntocero.com/wp-content/uploads/2020/04/mejores-bancos-de-imagenes-gratis.jpg" alt="" />
                 <span>photo_2024_6.png</span>
               </div>
-              <img src="./download.png" alt="" />
+              <img src="./download.png" alt="" className="icon"/>
             </div>
             <div className="photoItem">
               <div className="photoDetail">
                 <img src="https://www.educaciontrespuntocero.com/wp-content/uploads/2020/04/mejores-bancos-de-imagenes-gratis.jpg" alt="" />
                 <span>photo_2024_6.png</span>
               </div>
-              <img src="./download.png" alt="" />
+              <img src="./download.png" alt="" className="icon"/>
             </div>
             <div className="photoItem">
               <div className="photoDetail">
                 <img src="https://www.educaciontrespuntocero.com/wp-content/uploads/2020/04/mejores-bancos-de-imagenes-gratis.jpg" alt="" />
                 <span>photo_2024_6.png</span>
               </div>
-              <img src="./download.png" alt="" />
+              <img src="./download.png" alt="" className="icon"/>
             </div>
             <div className="photoItem">
               <div className="photoDetail">
                 <img src="https://www.educaciontrespuntocero.com/wp-content/uploads/2020/04/mejores-bancos-de-imagenes-gratis.jpg" alt="" />
                 <span>photo_2024_6.png</span>
               </div>
-              <img src="./download.png" alt="" />
-            </div>
-            <div className="photoItem">
-              <div className="photoDetail">
-                <img src="https://www.educaciontrespuntocero.com/wp-content/uploads/2020/04/mejores-bancos-de-imagenes-gratis.jpg" alt="" />
-                <span>photo_2024_6.png</span>
-              </div>
-              <img src="./download.png" alt="" />
+              <img src="./download.png" alt="" className="icon"/>
             </div>
           </div>
         </div>
@@ -71,6 +64,7 @@ const Detail = () => {
           </div>
         </div>
         <button>Block User</button>
+        <button className="logout">Logout</button>
       </div>
     </div>
   )
