@@ -70,6 +70,9 @@ const Login = () => {
       });
 
       toast.success("Account created!");
+      setTimeout(() => {
+        window.location.reload()
+      }, "1000");
     } catch (err) {
       console.log(err);
       toast.error(err.message);
